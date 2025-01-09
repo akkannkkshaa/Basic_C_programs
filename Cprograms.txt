@@ -1,0 +1,297 @@
+STATIC VALUES
+
+#include <stdio.h>
+void main()
+{
+    int a=5,b=5,c;
+    c=a+b;
+    printf("\n%d",c);
+    c=a-b;
+    printf("\n%d",c);
+    c=a*b;
+    printf("\n%d",c);
+    c=a/b;
+    printf("\n%d",c);
+}
+
+Area of square
+
+#include<stdio.h>
+{
+int a=2,b;
+b=a*a;
+printf("Area of square=%d",b);
+}
+
+Area of triangle
+
+#include <stdio.h>
+
+void main()
+{
+    int b=2,h=2,A;
+A=0.5*b*h;
+printf("Area of triangle=%d",A);
+
+}
+
+
+Area of Circle
+
+#include<stdio.h>
+void main()
+{
+int r=2,A;
+A=3.14*r*r;
+printf("Area of Circle=%d",A);
+}
+
+DYNAMIC VALUES
+
+#include<stdio.h>
+void main()
+{
+int a,b,c;
+printf("Enter value of a=");
+scanf("%d",&a);
+printf("Enter value of b=");
+scanf("%d",&b);
+c=a+b;
+printf("Sum of a+b=%d",c);
+c=a-b;
+printf("\nSubtraction is=%d",c);
+c=a*b;
+printf("\nMultiplication is=%d",c);
+c=a/b;
+printf("\nDivision is=%d",c);
+}
+
+Area of Triangle
+
+#include<stdio.h>
+void main()
+{
+int h,b,A;
+printf("Enter value of h=");
+scanf("%d",&h);
+printf("Enter value of b");
+scanf("%d",&b);
+A=0.5*b*h;
+printf("Area of Triangle=%d",A);
+}
+
+Area of Circle
+
+#include<stdio.h>
+void main()
+{
+int r;
+float A;
+printf("Enter value of r=");
+scanf("%d",&r);
+A=3.14*r*r;
+printf("Area of Circle=%f",A);
+}
+
+Area of Square
+
+#include<stdio.h>
+void main()
+{
+int s,A;
+printf("Enter value of s=");
+scanf("%d",&s);
+A=s*s;
+printf("Area of Square=%d",A);
+}
+
+Area of Rectangle
+
+#include<stdio.h>
+void main()
+{
+int l,w;
+float A;
+printf("Enter value of l=");
+scanf("%d",&l);
+printf("Enter value of w=");
+scanf("%d",&w);
+A=l*w;
+printf("Area of Rectangle=%f",A);
+}
+
+Area of Parallelogram
+
+#include<stdio.h>
+void main()
+{
+int b,h;
+float A;
+printf("Enter value of b=");
+scanf("%d",&b);
+printf("Enter value of h=");
+scanf("%d",&h);
+A=b*h;
+printf("Area of Parallelogram=%f",A);
+}
+
+
+Perimeter of Parallelogram
+
+#include<stdio.h>
+void main()
+{
+int b,h;
+float P;
+printf("Enter value of b=");
+scanf("%d",&b);
+printf("Enter value of h=");
+scanf("%d",&h);
+P=2*(b*h);
+printf("Parameter of Parallelogram=%f",P);
+}
+
+Perimeter of Square
+
+#include<stdio.h>
+void main()
+{
+int s;
+float P;
+printf("Enter value of s=");
+scanf("%d",&s);
+P=4*s;
+printf("Parameter of Square=%f",P);
+}
+
+Perimeter of Rectangle
+
+#include<stdio.h>
+void main()
+{
+int l,b;
+float P;
+printf("Enter value of l=");
+scanf("%d",&l);
+printf("Enter value of b=");
+scanf("%d",&b);
+P=2*(l+b);
+printf("Parameter of Square=%f",P);
+}
+
+Perimeter of Triangle
+
+#include<stdio.h>
+void main()
+{
+int a,b,c;
+float P;
+printf("Enter value of a=");
+scanf("%d",&a);
+printf("Enter value of b=");
+scanf("%d",&b);
+printf("Enter value of c=");
+scanf("%d",&c);
+P=a+b+c;
+printf("Perimeter of Triangle=%f",P);
+}
+
+Circumference of Circle
+
+#include<stdio.h>
+void main()
+{
+int r;
+float C;
+printf("Enter value of r=");
+scanf("%d",&r);
+C=2*3.14*r;
+printf("Circumference of Circle=%f",C);
+}
+
+Perimeter of Trapezoid
+
+#include<stdio.h>
+void main()
+{
+int a,b,c,d;
+float P;
+printf("Enter value of a=");
+scanf("%d",&a);
+printf("Enter value of b=");
+scanf("%d",&b);
+printf("Enter value of c=");
+scanf("%d",&c);
+printf("Enter value of d=");
+scanf("%d",&d);
+P=a+b+c+d;
+printf("Perimeter of Trapezoid=%f",P);
+}
+
+Perimeter of Rhombus
+
+include<stdio.h>
+void main()
+{
+int a,P;
+printf("Enter value of a=");
+scanf("%d",&a);
+P=4*a;
+printf("Perimeter of Rhombus=%d",P);
+}
+
+Perimeter of Hexagon
+
+#include<stdio.h>
+void main()
+{
+int a,P;
+printf("Enter value of a=");
+scanf("%d",&a);
+P=6*a;
+printf("Perimeter of Hexagon=%d",P);
+}
+
+Simple Interest
+
+#include<stdio.h>
+void main()
+{
+int SI,P,R,T;
+printf("Enter value of P=");
+scanf("%d",&P);
+printf("Enter value of R=");
+scanf("%d",&R);
+printf("Enter value of T=");
+scanf("%d",&T);
+SI=(P*R*T)/100;
+printf("Simple Interest=%d",SI);
+}
+
+Volume of Cuboid
+
+#include<stdio.h>
+void main()
+{
+int V,l,b,h;
+printf("Enter value of l=");
+scanf("%d",&l);
+printf("Enter value of b=");
+scanf("%d",&b);
+printf("Enter value of h=");
+scanf("%d",&h);
+V=l*b*h;
+printf("Volume of Cuboid=%d",V);
+}
+
+Volume of Cube
+
+#include<stdio.h>
+void main()
+{
+int a,V;
+printf("Enter value of a=");
+scanf("%d",&a);
+V=a*a*a;
+printf("Volume of Cube=%d",V);
+}
