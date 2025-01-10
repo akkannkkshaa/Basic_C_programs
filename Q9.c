@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main()
 {
-	float day,W,Y,D;
+	int day,W,Y,D;
 	printf("Enter no of days=");
-	scanf("%f",&day);
-	W=day/7;
+	scanf("%d",&day);
 	Y=day/365;
-	D=day;
-	printf("Years=%f Weeks=%f Days=%f",Y,W,D);
+	W=(day%365)/7;
+	D=(day%365)%7;
+	printf("Years=%d \nWeeks=%d \nDays=%d",Y,W,D);
 }
